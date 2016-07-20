@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57DD47932421AF4F4E1A1C1D /* libPods-JpushDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D900F39713218118144A54D6 /* libPods-JpushDemo.a */; };
 		9B5081E01D3F0D5E004A6879 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5081DF1D3F0D5E004A6879 /* main.m */; };
 		9B5081E31D3F0D5E004A6879 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5081E21D3F0D5E004A6879 /* AppDelegate.m */; };
 		9B5081E61D3F0D5E004A6879 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5081E51D3F0D5E004A6879 /* ViewController.m */; };
@@ -15,6 +16,14 @@
 		9B5081EE1D3F0D5E004A6879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5081EC1D3F0D5E004A6879 /* LaunchScreen.storyboard */; };
 		9B5081F91D3F0D5E004A6879 /* JpushDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5081F81D3F0D5E004A6879 /* JpushDemoTests.m */; };
 		9B5082041D3F0D5E004A6879 /* JpushDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5082031D3F0D5E004A6879 /* JpushDemoUITests.m */; };
+		9B5082151D3F2E4A004A6879 /* jpush-ios-2.1.8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5082131D3F2E4A004A6879 /* jpush-ios-2.1.8.a */; };
+		9B5082171D3F4ADC004A6879 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5082161D3F4ADC004A6879 /* libz.tbd */; };
+		9B5082191D3F4D37004A6879 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5082181D3F4D37004A6879 /* CoreFoundation.framework */; };
+		9B50821B1D3F4D41004A6879 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B50821A1D3F4D41004A6879 /* CoreTelephony.framework */; };
+		9B50821D1D3F4D4C004A6879 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B50821C1D3F4D4C004A6879 /* SystemConfiguration.framework */; };
+		9B50821F1D3F4D56004A6879 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B50821E1D3F4D56004A6879 /* Foundation.framework */; };
+		9B5082211D3F4D60004A6879 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5082201D3F4D60004A6879 /* UIKit.framework */; };
+		9B5082231D3F4D68004A6879 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5082221D3F4D68004A6879 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		76367236C14EFD625DB94A74 /* Pods-JpushDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JpushDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JpushDemo/Pods-JpushDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		9B5081DB1D3F0D5E004A6879 /* JpushDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JpushDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B5081DF1D3F0D5E004A6879 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9B5081E11D3F0D5E004A6879 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,17 @@
 		9B5081FF1D3F0D5E004A6879 /* JpushDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JpushDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B5082031D3F0D5E004A6879 /* JpushDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JpushDemoUITests.m; sourceTree = "<group>"; };
 		9B5082051D3F0D5E004A6879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B5082131D3F2E4A004A6879 /* jpush-ios-2.1.8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-2.1.8.a"; sourceTree = "<group>"; };
+		9B5082141D3F2E4A004A6879 /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		9B5082161D3F4ADC004A6879 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9B5082181D3F4D37004A6879 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		9B50821A1D3F4D41004A6879 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9B50821C1D3F4D4C004A6879 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9B50821E1D3F4D56004A6879 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B5082201D3F4D60004A6879 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B5082221D3F4D68004A6879 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A2A94CD00CC9E48505740516 /* Pods-JpushDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JpushDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JpushDemo/Pods-JpushDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D900F39713218118144A54D6 /* libPods-JpushDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JpushDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B5082231D3F4D68004A6879 /* Security.framework in Frameworks */,
+				9B5082211D3F4D60004A6879 /* UIKit.framework in Frameworks */,
+				9B50821F1D3F4D56004A6879 /* Foundation.framework in Frameworks */,
+				9B50821D1D3F4D4C004A6879 /* SystemConfiguration.framework in Frameworks */,
+				9B50821B1D3F4D41004A6879 /* CoreTelephony.framework in Frameworks */,
+				9B5082191D3F4D37004A6879 /* CoreFoundation.framework in Frameworks */,
+				9B5082171D3F4ADC004A6879 /* libz.tbd in Frameworks */,
+				9B5082151D3F2E4A004A6879 /* jpush-ios-2.1.8.a in Frameworks */,
+				57DD47932421AF4F4E1A1C1D /* libPods-JpushDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +108,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65DD758DDB3A677159E9F696 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B5082221D3F4D68004A6879 /* Security.framework */,
+				9B5082201D3F4D60004A6879 /* UIKit.framework */,
+				9B50821E1D3F4D56004A6879 /* Foundation.framework */,
+				9B50821C1D3F4D4C004A6879 /* SystemConfiguration.framework */,
+				9B50821A1D3F4D41004A6879 /* CoreTelephony.framework */,
+				9B5082181D3F4D37004A6879 /* CoreFoundation.framework */,
+				9B5082161D3F4ADC004A6879 /* libz.tbd */,
+				D900F39713218118144A54D6 /* libPods-JpushDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9B5081D21D3F0D5D004A6879 = {
 			isa = PBXGroup;
 			children = (
+				9B5082111D3F2E21004A6879 /* JPushLib */,
 				9B5081DD1D3F0D5E004A6879 /* JpushDemo */,
 				9B5081F71D3F0D5E004A6879 /* JpushDemoTests */,
 				9B5082021D3F0D5E004A6879 /* JpushDemoUITests */,
 				9B5081DC1D3F0D5E004A6879 /* Products */,
+				B86F4978BED9B53987C5B260 /* Pods */,
+				65DD758DDB3A677159E9F696 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +188,32 @@
 			path = JpushDemoUITests;
 			sourceTree = "<group>";
 		};
+		9B5082111D3F2E21004A6879 /* JPushLib */ = {
+			isa = PBXGroup;
+			children = (
+				9B5082121D3F2E4A004A6879 /* lib */,
+			);
+			name = JPushLib;
+			sourceTree = "<group>";
+		};
+		9B5082121D3F2E4A004A6879 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				9B5082131D3F2E4A004A6879 /* jpush-ios-2.1.8.a */,
+				9B5082141D3F2E4A004A6879 /* JPUSHService.h */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		B86F4978BED9B53987C5B260 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76367236C14EFD625DB94A74 /* Pods-JpushDemo.debug.xcconfig */,
+				A2A94CD00CC9E48505740516 /* Pods-JpushDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B5082081D3F0D5E004A6879 /* Build configuration list for PBXNativeTarget "JpushDemo" */;
 			buildPhases = (
+				AF63AA3D3E478BF4076F2274 /* [CP] Check Pods Manifest.lock */,
 				9B5081D71D3F0D5E004A6879 /* Sources */,
 				9B5081D81D3F0D5E004A6879 /* Frameworks */,
 				9B5081D91D3F0D5E004A6879 /* Resources */,
+				28EE8E7DFC93CA6D29F7137A /* [CP] Embed Pods Frameworks */,
+				A8E5A826B8D4130D0ABA439B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +284,12 @@
 				TargetAttributes = {
 					9B5081DA1D3F0D5E004A6879 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4Y8TXA6JMB;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					9B5081F31D3F0D5E004A6879 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -264,6 +347,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28EE8E7DFC93CA6D29F7137A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JpushDemo/Pods-JpushDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8E5A826B8D4130D0ABA439B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JpushDemo/Pods-JpushDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF63AA3D3E478BF4076F2274 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9B5081D71D3F0D5E004A6879 /* Sources */ = {
@@ -413,23 +544,39 @@
 		};
 		9B5082091D3F0D5E004A6879 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76367236C14EFD625DB94A74 /* Pods-JpushDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = JpushDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lairong.JpushDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		9B50820A1D3F0D5E004A6879 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2A94CD00CC9E48505740516 /* Pods-JpushDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = JpushDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lairong.JpushDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -498,6 +645,7 @@
 				9B50820A1D3F0D5E004A6879 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B50820B1D3F0D5E004A6879 /* Build configuration list for PBXNativeTarget "JpushDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +654,7 @@
 				9B50820D1D3F0D5E004A6879 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B50820E1D3F0D5E004A6879 /* Build configuration list for PBXNativeTarget "JpushDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +663,7 @@
 				9B5082101D3F0D5E004A6879 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
